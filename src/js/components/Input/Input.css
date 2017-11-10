@@ -1,3 +1,176 @@
 .required-field {
     color: red;
 }
+
+h1 {
+	font-size: 24px;
+	font-family: 'Muli' sans-serif;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+input[type=radio] {
+	border: 1px solid grey;
+}
+
+.break {
+	margin-left: 100px;
+}
+
+#productpic {
+	height: 30%;
+	width: 30%;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.cc-input {
+  border-radius: 0;
+}
+
+.cc-required-asterisk {
+  color: red;
+}
+
+button {
+	background-color: #42c1c1;
+	color: white;
+	border: none;
+	padding: 5px;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+
+
+
+#giftBox {
+	height: 30%;
+	width: 30%;
+}
+
+#chococurblogo {
+	height: 40%;
+	width: 40%;
+}
+
+tr {
+	border-top: 0.5px solid grey;
+}
+
+h2 {
+	font-size: 12pt;
+}
+
+.fieldWidth {
+	width: 700px;
+	height: 35px;
+	border: 2px solid rgba(220, 220, 220, 1);
+}
+
+.fieldWidthHalf{
+	width: 350px;
+	height: 35px;
+	border: 2px solid rgba(220, 220, 220, 1);
+}
+
+#messageHeight {
+	height: 80px;
+}
+
+.pricealign {
+	display: flex;
+	justify-content: space-between;
+}
+
+.priceLeftAlign {
+	float: right;
+}
+
+.navbar {
+	padding-left: 20px;
+	font-size: 25px;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+.col-md-12 {
+	display: inline;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:active {
+	color: #42c1c1;
+}
+
+button {
+	background-color: #42c1c1;
+	color: white;
+	border: none;
+	padding: 5px;
+}
+
+.thinBarHere {
+	border-top: 0.25px solid rgba(220, 220, 220, 1);
+	border-left: 0.25px solid rgba(220, 220, 220, 1);
+	border-right: 0.25px solid rgba(220, 220, 220, 1);
+	padding: 8px;
+}
+
+#bottomBarHere {
+	border-bottom: 0.25px solid rgba(220, 220, 220, 1);
+	padding: 8px;
+}
+
+#bottomBarHereAlso {
+	border-bottom: 0.25px solid rgba(220, 220, 220, 1);
+	padding: 8px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+	padding-left: 10px;
+	color: #000;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+	border: 1px solid #ddd;
+	background: #000;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+	background: red;
+	border-radius: 100%;
+}
