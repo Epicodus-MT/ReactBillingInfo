@@ -33,7 +33,7 @@ export default class BillingForm extends React.Component {
   }
 
   render() {
-    const { firstName, lastName, addressLine1, addressLine2, city, state, zipcode, phone } = this.props.form;
+    const { firstName, lastName, addressLine1, addressLine2, city, state, zipcode, phone, cardNumber, securtityCode, expirationMonth, expirationYear } = this.props.form;
 
     return <div>
       <h1>Billing Address</h1>
@@ -70,6 +70,25 @@ export default class BillingForm extends React.Component {
 
           <div class="col-xs-12 col-md-6">
             <Input field={ phone } action={ updateFormValue }/>
+          </div>
+
+
+          <h1>Billing Method</h1>
+
+          <div class="col-xs-12 col-md-5">
+            <Input field={ cardNumber } action={ updateFormValue }/>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <Input field={ securtityCode } action={ updateFormValue }/>
+          </div>
+
+          <div class="col-xs-3 col-md-2">
+            <Input field={ expirationMonth } action={ updateFormValue }/>
+          </div>
+
+          <div class="col-xs-3 col-md-2">
+            <Input field={ expirationYear } action={ updateFormValue }/>
           </div>
 
           <button type="submit" class="btn btn-default">Submit</button>

@@ -3,7 +3,7 @@ const initialState = {
         id: 'firstName',
         title: 'FIRST NAME',
         type: 'text',
-        placeholder: 'Enter your first name...',
+        placeholder: '',
         required: true,
         value: ''
     },
@@ -12,7 +12,7 @@ const initialState = {
         id: 'lastName',
         title: 'LAST NAME',
         type: 'text',
-        placeholder: 'Enter your last name...',
+        placeholder: '',
         required: true,
         value: ''
     },
@@ -71,23 +71,43 @@ const initialState = {
         value: ''
     },
 
-    // email: {
-    //     id: 'email',
-    //     title: 'EMAIL',
-    //     type: 'email',
-    //     placeholder: 'Enter a valid email address...',
-    //     required: true,
-    //     value: ''
-    // }
 
-    // password: {
-    //     id: 'password',
-    //     title: 'PASSWORD',
-    //     type: 'password',
-    //     placeholder: 'Enter a valid password...',
-    //     required: true,
-    //     value: ''
-    // }
+    cardNumber: {
+        id: 'cardNumber',
+        title: 'CARD NUMBER',
+        type: 'text',
+        placeholder: '',
+        required: true,
+        value: ''
+    },
+
+    securtityCode: {
+        id: 'securtityCode',
+        title: 'SECURITY CODE',
+        type: 'text',
+        placeholder: '***',
+        required: true,
+        value: ''
+    },
+
+    expirationMonth: {
+        id: 'expirationMonth',
+        title: 'M',
+        type: 'text',
+        placeholder: 'MM',
+        required: true,
+        value: ''
+    },
+
+    expirationYear: {
+        id: 'expirationYear',
+        title: 'Y',
+        type: 'text',
+        placeholder: 'YY',
+        required: true,
+        value: ''
+    },
+
 }
 
 export default function reducer(state = initialState, action) {

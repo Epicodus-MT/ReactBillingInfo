@@ -18,7 +18,11 @@ export function submitForm(formData) {
     state: formData.state.value,
     zipcode: formData.zipcode.value,
     phone: formData.phone.value,
-    // email: formData.email.value
+
+    cardNumber: formData.cardNumber.value,
+    securtityCode: formData.securtityCode.value,
+    expirationMonth: formData.expirationMonth.value,
+    expirationYear: formData.expirationYear.value,
   };
 
   return {
