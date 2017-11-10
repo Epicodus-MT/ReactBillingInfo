@@ -1,4 +1,4 @@
-# MTReactJS
+# ReactBillingInfo
 Billing Form
 
 <img src="mara.jpg" align="right">
@@ -18,29 +18,25 @@ _This is a React/Redux practice project._
 Within the repository you'll find the following directories and files:
 
 ```
-MTReactJS/
-├── .gradle/
-├── .idea/
-├── app/
-|    └── build/
-|    └── src/
-|    |     └── main/
-|    |     └── test/
-|    └── .gitignore
-|    └── app.iml
-|    └── build.gradle
-|    └── proguard-rules.pro
-├── build/
-├── gradle/
-├── .gitignore
-├── build.gradle
-└── README.md
+ReactBillingInfo/
+└── src/
+|    └── js/
+|    |    └── actions/
+|    |    └── components/
+|    |    └── reducers/
+|    └── index.html
+├── package.json/
+├── README.md
+└── webpack.config.js
 ```
 
 ## Setup/Installation Requirements
 To run this program:
   * _LOCAL: Go to Terminal_
   * `git clone https://github.com/Epicodus-MT/MTReactJS.git`
+  * 'npm install'
+  * 'npm run dev'
+  * Visit your app at [http://localhost:8080](http://localhost:8080).
 
 ## Known Bugs
 _No known bugs at this time._
